@@ -13,5 +13,5 @@ for (let i = 0; i < input.length - 1; i++) {
   let current = input[i];
   let next = input[i + 1];
 
-  current < next ? count ++ : ''
+  current < next ? count ++ : '';
 }

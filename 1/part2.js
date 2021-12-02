@@ -18,5 +18,5 @@ for (let i = 0; i < input.length - 3; i++) {
   let current = a + b + c;
   let next = b + c + d;
 
-  current < next ? count ++ : ''
+  current < next ? count ++ : '';
 }
