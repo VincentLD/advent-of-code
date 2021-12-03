@@ -1,0 +1,21 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VincentLD/advent-of-code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VincentLD/advent-of-code/issues"
+  },
+  "homepage": "https://github.com/VincentLD/advent-of-code#readme",
+  "type": "module"
+}
