@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-const data = fs.readFileSync('3/data.txt', { encoding: 'utf-8' }).split('\n');
+const data = fs.readFileSync('data.txt', { encoding: 'utf-8' }).split('\n');
 const halfRows = Math.floor(data.length / 2);
 
 let res = [];
@@ -17,7 +17,6 @@ data.forEach((row) => {
 	});
 });
 
-console.log(res);
 
 res.forEach((value) => {
 	if (value > halfRows) gamma += '1';
@@ -29,4 +28,5 @@ res.forEach((value) => {
 let gammaB10 = parseInt(gamma, 2);
 let epsilonB10 = parseInt(epsilon, 2);
 
+console.log({gammaB10, epsilonB10})
 console.log(gammaB10 * epsilonB10);
